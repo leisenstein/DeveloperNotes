@@ -1,6 +1,7 @@
 GIT Commands
 ========
 
+```sh
 git init
 
 git status
@@ -14,7 +15,7 @@ git remote add origin https://github.com/leisenstein/project-name
 git push -u origin master
 
 git pull origin master
-
+```
 
 - master is the default branch for a newly created repo
 - origin is your repo
