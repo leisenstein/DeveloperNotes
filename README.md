@@ -1,4 +1,4 @@
-Dillinger
+Example MarkDown
 =========
 
 Dillinger is a cloud-enabled HTML5 Markdown editor.
