@@ -5,7 +5,7 @@ git init
 
 git status
 
-git commit -m "Commit Message"
+git commit -m "Committing to the local repo (Staged)"
 
 git pull https://github.com/leisenstein/project-name
 
