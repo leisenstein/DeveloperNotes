@@ -39,7 +39,7 @@ git pull https://github.com/leisenstein/project-name
 
 On the remote server, I add my changes to that repo.  The changes are now staged, but not committed.
 ```sh
-git remote add origin https://github.com/leisenstein/project-name
+git remote add origin https://github.com/leisenstein/project-name.git
 ```
 
 Now, I push the changes from my local repo to the master branch of the remote repo.
@@ -55,4 +55,4 @@ git pull origin master
 
 - master is the default branch for a newly created repo
 - origin is your repo
-
+- git have me errors when I tried to commit to a repo with a "." in it's name.
