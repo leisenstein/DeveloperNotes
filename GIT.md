@@ -53,6 +53,12 @@ git pull origin master
 ```
 
 
+- workspace is your local directory
+- index is your local "staging area". You add/remove files to your staging area.
+- local repository is a subdirectory named .git that contains all your neccessary repository files. files are committed to the local repo, from your workspace. 
+- upstream repository is a version of your project hosted on a remote server ensuring all your changes are available to other developers. The default is "origin", a typical branch is "master"
+- pull from an upstream repo fetches changes and merges them into the current branch
+- clone downloads a repo from an upstream server and check the HEAD of the master branch
 - master is the default branch for a newly created repo
 - origin is your repo
 - git have me errors when I tried to commit to a repo with a "." in it's name.
