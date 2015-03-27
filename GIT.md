@@ -61,8 +61,8 @@ git pull origin master
 - clone downloads a repo from an upstream server and check the HEAD of the master branch
 - master is the default branch for a newly created local repo
 - origin the name of your repo that you create on github
-- git have me errors when I tried to commit to a repo with a "." in it's name.
-- 
+
+----
 
 To RollBack Uncommitted Changes
 ```sh
