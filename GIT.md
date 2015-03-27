@@ -62,3 +62,13 @@ git pull origin master
 - master is the default branch for a newly created local repo
 - origin the name of your repo that you create on github
 - git have me errors when I tried to commit to a repo with a "." in it's name.
+- 
+
+To RollBack Uncommitted Changes
+```sh
+# Revert changes to modified files.
+git reset --hard
+
+# Remove all untracked files and directories.
+git clean -fd
+```
