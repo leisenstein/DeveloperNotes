@@ -5,6 +5,32 @@
 ##### Heading 5
 ###### Heading 6
 
+----
+----
 
-----
-----
+
+# Lists
+- Item 1
+- Item 2
+- Item 3
+  - Item A
+    - Item X 
+  - Item B
+- Item 4
+
+
+# Text Formatting
+`Short Highlight`
+
+```C#
+string codeBlock { get; set; }
+```
+
+*Italics*
+
+**Bold**
+
+
+*** 
+Other Highlighter
+***
