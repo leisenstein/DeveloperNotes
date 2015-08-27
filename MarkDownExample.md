@@ -30,7 +30,26 @@ string codeBlock { get; set; }
 
 **Bold**
 
+Single Bar
+---- 
 
-*** 
-Other Highlighter
+Double Bar
 ***
+
+***
+Double bar Highlighter
+*** 
+
+> Block Quote
+> More Text Here
+> Even more text on this line
+
+
+Links
+----
+<a id="install">AHREF with id</a>
+
+[Link Text](http://www.google.com)
+
+
+
