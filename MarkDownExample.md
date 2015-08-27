@@ -49,7 +49,7 @@ Links
 ----
 <a id="install">AHREF with id</a>
 
-[Link Text](http://www.google.com)
+[LinkText](http://www.google.com)
 
 
 
