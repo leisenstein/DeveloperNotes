@@ -4,6 +4,9 @@ GIT Commands
 Workflow
 There are many ways to start a GitHub project, but this is the way I've been doing it.  I'm a complete newb at this, so a lot of this information is probably wrong.  I'll update this as I gain more experience.
 
+```sh
+UPDATE: For Visual Studio Solutions, add and sync the .gitignore file BEFORE creating/adding the project and solution files.  This will ensure the files that should be ignored won't get added to the repository before the .gitignore file is in place.  If these files (DLL, Bin, Obj, EXE, etc.) are added before the .gitignore file is in place, they will need to be manually removed from the repo.
+```
 
 First, I create a Repo on GitHub.  Let's call is project-name
 
