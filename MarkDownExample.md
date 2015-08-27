@@ -20,7 +20,8 @@
 
 
 # Text Formatting
-`Short Highlight`
+`Inline Highlight`
+
 
 ```C#
 string codeBlock { get; set; }
@@ -35,6 +36,8 @@ Single Bar
 
 Double Bar
 ***
+
+
 
 ***
 Double bar Highlighter
