@@ -35,11 +35,10 @@ Single Bar
 ---- 
 
 
-Double Bar
+Thick Bar
 ***
 
-
-
+You can highlight by putting text between thick bars
 ***
 Double bar Highlighter
 *** 
