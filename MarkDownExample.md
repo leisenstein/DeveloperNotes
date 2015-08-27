@@ -47,11 +47,13 @@ Double bar Highlighter
 
 Links
 ----
+
 [LinkText](http://www.google.com)
 
 
 Tables
 ----
+
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
