@@ -1,7 +1,7 @@
 GIT Commands
 ========
 
-Workflow
+Workflow - 
 There are many ways to start a GitHub project, but this is the way I've been doing it.  I'm a complete newb at this, so a lot of this information is probably wrong.  I'll update this as I gain more experience.
 
 ```sh
@@ -11,7 +11,7 @@ This will ensure the files that should be ignored won't get added to the reposit
 If these files (DLL, Bin, Obj, EXE, etc.) are added before the .gitignore file is in place, they will need to be manually removed from the repo.
 ```
 
-First, I create a Repo on GitHub.  Let's call is project-name
+First, I create a Repo on GitHub.  Let's call it project-name
 
 I open a command prompt and go to the directory on my computer where the project exists.
 I type the command below to create the repo on my local computer.
@@ -25,7 +25,7 @@ I check the status of the repo on my local computer.  It's newly created, so not
 git status
 ```
 
-I add everything to my local repo so it is being tracked.  This is called the Staging area.
+I add code files to my local repo so it is being tracked.  This is called the Staging area.
 It is now being tracked, but has not been committed to my local repo.
 ```sh
 git add .
@@ -43,7 +43,7 @@ Now, I pull the repo from the project I created to get them in sync.
 git pull https://github.com/leisenstein/project-name
 ```
 
-On the remote server, I add my changes to that repo.  The changes are now staged, but not committed.
+I add a link between my local repo (called origin) and my remote repo with a branch that defaults to master.  The changes are now staged, but not committed.
 ```sh
 git remote add origin https://github.com/leisenstein/project-name.git
 ```
